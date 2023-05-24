@@ -1,10 +1,12 @@
 pipeline {
-    agent { docker { image 'node:18.16.0-alpine' } }
-    stages {
-        stage('build') {
+     agent any
+     stages {
+        stage("Build") {
             steps {
-                sh 'node --version'
+                sh "sudo npm install"
+                sh "sudo npm run build"
             }
         }
+    
     }
 }
