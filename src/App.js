@@ -11,7 +11,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React with openshift
+          Learn React with openshift and jenkins
         </a>
       </header>
     </div>
